@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+   <channel>
+      <title>Amazon EMR Release Notes</title>
+      <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/</link>
+      <description>A RSS feed containing the latest updates on https://docs.aws.amazon.com/emr/latest/ReleaseGuide/.</description>
+      <language>en-us</language>
+      <atom:link href="https://docs.aws.amazon.com/emr/latest/ReleaseGuide/amazon-emr-release-notes.rss"
+                 rel="self"
+                 type="application/rss+xml"/>
+      <lastBuildDate>Thu, 12 Jun 2025 09:35:27 GMT</lastBuildDate>
+      <item>
+         <title>Release 7.9.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-790-release.html#emr-790-relnotes</link>
+         <description>Amazon EMR release 7.9.0 contains application upgrades such as Hadoop 3.4.1 and Zookeeper 3.9.3. This version includes CM-CMK support 
+                        for Persistent App UI and support for launching EMR clusters on the FIPS enabled AL2023 AMI. See the 7.9.0 release notes for more information.</description>
+         <pubDate>Mon, 19 May 2025 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.9.0_now_available_2025-05-19</guid>
+      </item>
+      <item>
+         <title>Release 7.8.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-780-release.html#emr-780-relnotes</link>
+         <description>Amazon EMR release 7.8.0 contains application upgrades such as Apache Iceberg 1.7.1-amzn-1 
+                        and Delta 3.3.0-amzn-0 and Zookeeper 3.9.3.</description>
+         <pubDate>Tue, 11 Mar 2025 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.8.0_now_available_2025-03-11</guid>
+      </item>
+      <item>
+         <title>Release 7.7.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-770-release.html#emr-770-relnotes</link>
+         <description>Amazon EMR release 7.7.0 contains application upgrades such as Apache Iceberg 1.7.1-amzn-0 
+                        and Delta 3.2.1-amzn-2 and Trino 467.</description>
+         <pubDate>Thu, 6 Feb 2025 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.7.0_now_available_2025-02-06</guid>
+      </item>
+      <item>
+         <title>Release 7.6.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-760-release.html#emr-760-relnotes</link>
+         <description>Amazon EMR release 7.6.0 contains application upgrades such as HBase 2.6.1, Flink 1.20.0, Spark 3.5.3, and Trino 457. The release also includes Amazon S3 client-side encryption for the 
+                        S3A filesystem connector and TLS support on HMaster and RegionServer endpoints.</description>
+         <pubDate>Fri, 10 Jan 2025 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.6.0_now_available_2025-01-10</guid>
+      </item>
+      <item>
+         <title>Release 7.5.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-750-release.html#emr-750-relnotes</link>
+         <description>Amazon EMR release 7.5.0 contains application upgrades such as Delta 3.2.1-amzn-0, HBase 2.5.10, Hudi 0.15.0-amzn-2, and Iceberg 1.6.1-amzn-1. The release also includes EMR write-ahead logs (WAL) support 
+                        for cross cluster replication.</description>
+         <pubDate>Thu, 21 Nov 2024 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.5.0_now_available_2024-11-21</guid>
+      </item>
+      <item>
+         <title>Release 7.4.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-740-release.html#emr-740-relnotes</link>
+         <description>Amazon EMR release 7.4.0 contains application upgrades such as AWS SDK for Java 2.28.8, Delta 3.2.0-amzn-1, Flink 1.19.1, Hadoop 3.4.0, HBase 2.5.5, 
+                        Hudi 0.15.0-amzn-1, Iceberg 1.6.1-amzn-0, Phoenix 5.2.0, Presto 0.287, Spark 3.5.2, Trino 446, and Zookeeper 3.9.2. Features include the Yarn ResourceManager providing graceful decommissioning for files served 
+                        by the Spark external shuffle service.</description>
+         <pubDate>Wed, 13 Nov 2024 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.4.0_now_available_2024-11-13</guid>
+      </item>
+      <item>
+         <title>Release 7.3.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-730-release.html#emr-730-relnotes</link>
+         <description>Amazon EMR release 7.3.0 contains application upgrades such as Delta 3.2.0-amzn-0, Hudi 0.15.0-amzn-0, Iceberg 1.5.2-amzn-0, TensorFlow 2.16.1, Trino 442, and Zeppelin 11.1.</description>
+         <pubDate>Wed, 16 Oct 2024 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.3.0_now_available_2024-10-16</guid>
+      </item>
+      <item>
+         <title>Release 7.2.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-720-release.html#emr-720-relnotes</link>
+         <description>Amazon EMR release 7.2.0 contains application upgrades such as Apache Iceberg 1.5.0-amzn-0 
+                        and Delta 3.1.0. This release also adds suppor so that you can use other applications such as HBase, Flink,
+                        and Hive with the Amazon S3 Express One Zone storage class.</description>
+         <pubDate>Thu, 25 Jul 2024 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.2.0_now_available_2024-07-25</guid>
+      </item>
+      <item>
+         <title>Release 5.36.2 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-5362-release.html#emr-5362-relnotes</link>
+         <description>Amazon EMR release 5.36.2 contains important fixes and improvements.</description>
+         <pubDate>Tue, 28 May 2024 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.36.2_now_available_2024-05-28</guid>
+      </item>
+      <item>
+         <title>Release 7.1.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-710-release.html#emr-710-relnotes</link>
+         <description>Amazon EMR release 7.1.0 contains important upgrades and fixes, including
+                    an upgrade of Livy to 0.8.0 and ZooKeeper to 3.9.1. Amazon EMR 7.1 also adds
+                    several features, such as integrating Apache Livy as an endpoint
+                    for your Amazon EKS cluster and EMR Serverless applications. This release
+                    also adds support for Lake Formation with Amazon EMR on EKS, so you can manage and secure data lakes
+                    with fine-grained access control.</description>
+         <pubDate>Wed, 8 May 2024 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.1.0_now_available_2024-05-08</guid>
+      </item>
+      <item>
+         <title>Release 7.0.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-700-release.html#emr-700-relnotes</link>
+         <description>Amazon EMR release 7.0.0 contains important upgrades and fixes, including an
+                        upgrade of Apache Spark to version 3.5.0. Amazon EMR 7.0 adds support for the
+                        Amazon CloudWatch agent application, and removes support for Ganglia. This
+                        release also makes Amazon Corretto 17 the default JDK for applications that support
+                        JDK17, and changes all EMR clusters to run on AL2023 by default.</description>
+         <pubDate>Thu, 28 Dec 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_7.0.0_now_available_2023-12-28</guid>
+      </item>
+      <item>
+         <title>Release 6.15.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-6150-release.html#emr-6150-relnotes</link>
+         <description>Amazon EMR release 6.15.0 contains important upgrades and fixes, including an
+                        upgrade of Apache Hadoop to version 3.3.6, migration of the AWS SDK to v2,
+                        asynchronous split opening capability for Tez, general availability of
+                        Apache Flink support on Amazon EMR on EKS clusters, and mutual-TLS encrypted
+                        communication between workers in your EMR Serverless Spark job runs.</description>
+         <pubDate>Fri, 17 Nov 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.15.0_now_available_2023-11-17</guid>
+      </item>
+      <item>
+         <title>Release 6.14.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-6140-release.html#emr-6140-relnotes</link>
+         <description>Amazon EMR release 6.14.0 contains important upgrades and fixes, including
+                        improvements to cluster scaling operations and Amazon EMR log management, and the
+                        general availability of managed scaling in the Asia Pacific (Jakarta)
+                            (&lt;code class="code"&gt;ap-southeast-3&lt;/code&gt;) Region.</description>
+         <pubDate>Tue, 10 Oct 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.14.0_now_available_2023-10-10</guid>
+      </item>
+      <item>
+         <title>Release 6.13.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-6130-release.html#emr-6130-relnotes</link>
+         <description>Amazon EMR release 6.13.0 contains important upgrades, improvements, and fixes,
+                        including improvements to the Amazon EMR log management daemon to ensure that all
+                        logs are uploaded at a regular cadence to Amazon S3 when a cluster termination
+                        command is issued, and timely upload of all log files to Amazon S3 for
+                        long-running EMR clusters.</description>
+         <pubDate>Tue, 12 Sep 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.13.0_now_available_2023-09-12</guid>
+      </item>
+      <item>
+         <title>Releases 6.11.1, 6.10.1, 6.9.1, and 6.8.1 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-6111-release.html#emr-6111-relnotes</link>
+         <description>These Amazon EMR patch releases include important security and performance
+                        updates. We recommend that you use the latest patch release for the most
+                        recent release version that works with your processes.</description>
+         <pubDate>Mon, 21 Aug 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Releases_6.11.1,_6.10.1,_6.9.1,_and_6.8.1_now_available_2023-08-21</guid>
+      </item>
+      <item>
+         <title>Release 6.12.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-6120-release.html#emr-6120-relnotes</link>
+         <description>Amazon EMR release 6.12.0 supports all applications with Amazon Corretto 8 by
+                        default, except for Trino. For Trino, Amazon EMR 6.12.0 uses Amazon Corretto 17
+                        by default. Amazon EMR also supports some applications with Amazon Corretto 11
+                        and 17. Amazon EMR 6.12 includes Java 11 runtime support for Flink. With 6.12,
+                        you can also use the LDAP over SSL (LDAPS) protocol to launch a cluster that
+                        natively integrates with your corporate identity server. </description>
+         <pubDate>Fri, 21 Jul 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.12.0_now_available_2023-07-21</guid>
+      </item>
+      <item>
+         <title>Release 6.11.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-6110-release.html#emr-6110-relnotes</link>
+         <description>Amazon EMR release 6.11.0 includes improvements to the DynamoDB connector, and
+                        fixes an issue related to using Delta Lake to store Delta table data in Amazon S3
+                        after column rename operation. 6.11 also fixes an issue with using edge
+                        nodes on clusters with multiple primary nodes, and improves the automation
+                        process used to re-mount Amazon EBS volumes to an instance after a reboot.
+                    </description>
+         <pubDate>Fri, 9 Jun 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.11.0_now_available_2023-06-09</guid>
+      </item>
+      <item>
+         <title>Release 5.36.1 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-5361-release.html#emr-5361-relnotes</link>
+         <description>Amazon EMR release 5.36.1 adds support for archiving logs to Amazon S3 during
+                        cluster scale-down, improves the on-cluster log management daemon, and fixes
+                        an issue where an Amazon EC2 hardware failure on one of the primary nodes could
+                        cause a second primary node to fail and render your cluster unstable.</description>
+         <pubDate>Tue, 9 May 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.36.1_now_available_2023-05-09</guid>
+      </item>
+      <item>
+         <title>Release 6.10.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-6100-release.html#emr-6100-relnotes</link>
+         <description>Amazon EMR release 6.10.0 includes a native Trino-Hudi connector that provides
+                        read access to data in Hudi tables. Amazon EMR 6.10.0 automatically adds the
+                        required spark-redshift related jars to the executor class path for Spark.
+                        6.10.0 also includes improvements to the on-cluster log management daemon
+                        that minimize disk over-utilization. This release also supports regional
+                        endpoints for EMRFS user mapping.</description>
+         <pubDate>Wed, 1 Mar 2023 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.10.0_now_available_2023-03-01</guid>
+      </item>
+      <item>
+         <title>Release 6.9.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-690-release.html#emr-690-relnotes</link>
+         <description>Amazon EMR release 6.9.0 includes a new open-source application, Delta Lake.
+                        The Amazon Redshift integration for Apache Spark is included in this release. 6.9.0 adds support for
+                        archiving logs to Amazon S3 during cluster scale-down. You can now use
+                        Apache Flink on Amazon EMR for unified BATCH and STREAM processing of Apache Hive
+                        Tables or metadata of any Flink tablesource such as Iceberg, Kinesis or
+                        Kafka. You can now specify IAM runtime roles and AWS Lake Formation-based access
+                        control for Apache Spark, Apache Hive, and Presto queries on Amazon EMR on EC2
+                        clusters with Amazon SageMaker Runtime Studio. </description>
+         <pubDate>Mon, 14 Nov 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.9.0_now_available_2022-11-14</guid>
+      </item>
+      <item>
+         <title>Release 6.8.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-680-release.html#emr-680-relnotes</link>
+         <description>Amazon EMR release 6.8.0 comes with Apache HBase release 2.4.12, which lets you
+                        both archive and delete your HBase tables so you can skip the archive
+                        process and quickly drop and delete large tables. The Amazon EMR steps feature
+                        now supports Apache Livy endpoint and JSBC/ODBC clients. Amazon EMR 6.8.0 comes
+                        with Apache Spark 3.3.0, which uses Apache Log4j 2 and the log4j2.properties
+                        file to configure Log4j in Spark processes. You must migrate to the new
+                        spark-log4j2 configuration classification and key format for Apache Log4j 2
+                        before upgrading to 6.8.0. Amazon EMR 6.8.0 comes with Apache Hudi 0.11.1;
+                        however, Amazon EMR 6.8.0 clusters are also compatible with the open source
+                        hudi-spark3.3-bundle_2.12 from Hudi 0.12.0. This release also fixes an issue
+                        that causes a NoSuchMethodError when Amazon EMR reads Apache Phoenix tables
+                        through the Apache Spark shell. </description>
+         <pubDate>Fri, 30 Sep 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.8.0_now_available_2022-09-30</guid>
+      </item>
+      <item>
+         <title>Release 6.7.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html#emr-670-relnotes</link>
+         <description>Amazon EMR now supports Apache Spark 3.2.1, Apache Hive 3.1.3, HUDI 0.11,
+                        PrestoDB 0.272, and Trino 0.378. Also supports IAM Role and Lake Formation-based
+                        access controls with EMR Steps (Spark, Hive) for Amazon EMR on EC2 clusters.
+                        Supports Apache Spark data definition statements on Apache Ranger enabled
+                        clusters. This now includes support for Trino applications reading and
+                        writing Apache Hive metadata on Apache Ranger enabled clusters. For more
+                        information, see &lt;a href="https://aws.amazon.com/blogs/big-data/enable-federated-governance-using-trino-and-apache-ranger-on-amazon-emr/" rel="noopener noreferrer" target="_blank"&gt;Enable federated governance using Trino and Apache Ranger on Amazon
+                            EMR&lt;/a&gt;.</description>
+         <pubDate>Thu, 21 Jul 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.7.0_now_available_2022-07-21</guid>
+      </item>
+      <item>
+         <title>Release 6.6.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html#emr-660-relnotes</link>
+         <description>Support for Apache Spark 3.2, Apache Spark RAPIDS 22.02, CUDA 11, Apache
+                        Hudi 0.10.1, Apache Iceberg 0.13, Trino 0.367 and PrestoDB 0.267. New Amazon EMR
+                        clusters with the default Amazon Linux (AL) AMI option automatically use the latest
+                        Amazon Linux AMI. Applications that use Log4j 1.x and Log4j 2.x are upgraded to use
+                        Log4j 1.2.17 (or higher) and Log4j 2.17.1 (or higher) respectively, without
+                        the need for a bootstrap action. Improved cluster startup time.</description>
+         <pubDate>Mon, 9 May 2022 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.6.0_now_available_2022-05-09</guid>
+      </item>
+      <item>
+         <title>Release 6.5.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html#emr-650-relnotes</link>
+         <description>Support for Apache Iceberg open table format for huge analytic datasets.
+                        Also, support for Ranger Trino plugin version 2.0.1-amzn-1.</description>
+         <pubDate>Tue, 30 Nov 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.5.0_now_available_2021-11-30</guid>
+      </item>
+      <item>
+         <title>Release 6.4.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html#emr-640-relnotes</link>
+         <description>New Hudi features and improvements, including Hudi now supports Optimistic
+                        Concurrency Control (OCC). Hive features and performance improvements,
+                        including query compilation time reduced by 2.5 times with Glue metastore
+                        Partition Pruning.</description>
+         <pubDate>Mon, 20 Sep 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.4.0_now_available_2021-09-20</guid>
+      </item>
+      <item>
+         <title>Release 6.3.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html#emr-630-relnotes</link>
+         <description>With Amazon EMR 6.3.0, you can launch a cluster that natively integrates with
+                        Apache Ranger. Apache Ranger is an open-source framework to enable, monitor,
+                        and manage comprehensive data security across the Hadoop platform. For more
+                        information, see &lt;a href="https://ranger.apache.org/" rel="noopener noreferrer" target="_blank"&gt;Apache
+                            Ranger&lt;/a&gt;. With native integration, you can bring your own Apache
+                        Ranger to enforce fine-grained data access control on Amazon EMR. See &lt;a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ranger.html"&gt;Integrate Amazon EMR with Apache Ranger&lt;/a&gt; in the
+                        Amazon EMR Management Guide.</description>
+         <pubDate>Wed, 12 May 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.3.0_now_available_2021-05-12</guid>
+      </item>
+      <item>
+         <title>Release 5.33.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-533-relnotes</link>
+         <description>With Amazon EMR 5.33.0, Amazon EMR supports Amazon S3 Access Points, a feature of Amazon S3
+                        that allows you to easily manage access for shared data lakes.</description>
+         <pubDate>Mon, 19 Apr 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.33.0_now_available_2021-04-19</guid>
+      </item>
+      <item>
+         <title>Release 5.32.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5320-relnotes</link>
+         <description>Beginning with Amazon EMR 5.32.0, you can launch a cluster that natively
+                        integrates with Apache Ranger. Apache Ranger is an open-source framework to
+                        enable, monitor, and manage comprehensive data security across the Hadoop
+                        platform. For more information, see &lt;a href="https://ranger.apache.org/" rel="noopener noreferrer" target="_blank"&gt;Apache Ranger&lt;/a&gt;. With native integration, you can bring your own
+                        Apache Ranger to enforce fine-grained data access control on Amazon EMR. See
+                            &lt;a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ranger.html"&gt;Integrate Amazon EMR
+                            with Apache Ranger&lt;/a&gt; in the
+                        &lt;em&gt;Amazon EMR Release Guide&lt;/em&gt;.</description>
+         <pubDate>Fri, 8 Jan 2021 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.32.0_now_available_2021-01-08</guid>
+      </item>
+      <item>
+         <title>Release 6.2.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html#emr-620-relnotes</link>
+         <description>With Amazon EMR 6.2.0, you can launch a cluster that integrates with Lake
+                        Formation. This integration provides fine-grained, column-level data
+                        filtering to databases and tables in the AWS Glue Data Catalog It also enables
+                        federated single sign-on to EMR Notebooks or Apache Zeppelin from an
+                        enterprise identity system. For more information, see Integrating Amazon EMR
+                        with Lake Formation.</description>
+         <pubDate>Wed, 9 Dec 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.2.0_now_available_2020-12-09</guid>
+      </item>
+      <item>
+         <title>Release 5.31.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5310-relnotes</link>
+         <description>With Amazon EMR 5.31.0, you can launch a cluster that integrates with Lake
+                        Formation. This integration provides fine-grained, column-level data
+                        filtering to databases and tables in the AWS Glue Data Catalog. It also enables
+                        federated single sign-on to EMR Notebooks or Apache Zeppelin from an
+                        enterprise identity system. For more information, see Integrating Amazon EMR
+                        with Lake Formation.</description>
+         <pubDate>Fri, 9 Oct 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.31.0_now_available_2020-10-09</guid>
+      </item>
+      <item>
+         <title>Release 6.1.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html#emr-610-relnotes</link>
+         <description>PrestoSQL 338 support with JDK-11 and Spark 3.0. Support for Hive ACID
+                        transactional tables. Simplified ECR integration with Docker
+                        container.</description>
+         <pubDate>Fri, 4 Sep 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.1.0_now_available_2020-09-04</guid>
+      </item>
+      <item>
+         <title>Release 5.30.1 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5301-relnotes</link>
+         <description>Bug fixes and the availability of persistent off-cluster YARN application
+                        server history and Tez UI.</description>
+         <pubDate>Tue, 30 Jun 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.30.1_now_available_2020-06-30</guid>
+      </item>
+      <item>
+         <title>EMR notebooks run kernels on cluster with 5.30.0 and later</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-installing-libraries-and-kernels.html</link>
+         <description>Running kernels on cluster with EMR 5.30.0 and later improves notebook
+                        performance and allows you to install and customize kernels. You can also
+                        install Python libraries on the cluster master node.</description>
+         <pubDate>Wed, 3 Jun 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#EMR_notebooks_run_kernels_on_cluster_with_5.30.0_and_later_2020-06-03</guid>
+      </item>
+      <item>
+         <title>Release 5.30.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5300-relnotes</link>
+         <description>EMR 5.30.0 now supports Amazon Linux 2, and Presto Auto Scale with
+                        Graceful Decommission. Upgraded versions of Flink, Ganglia, Hbase, Hudi,
+                        Hue, JupyterHub, Livy, Oozie, Presto, AWS SDK for Java, AWS Glue connector, Amazon
+                        SageMaker Spark SDK, Amazon Kinesis connector, EMR Record Server, EMR
+                        DynamoDB Connector.</description>
+         <pubDate>Wed, 13 May 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.30.0_now_available_2020-05-13</guid>
+      </item>
+      <item>
+         <title>Release 6.0.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html#emr-600-relnotes</link>
+         <description>EMR 6 now supports Hadoop 3. Amazon Linux 2 is the operating system and
+                        Coretto JDK 8 is the default JDK for EMR 6. Spark can run in the context of
+                        a Docker container. Hive now supports the LLAP execution mode. Upgraded
+                        versions of Hive, HBase, Phoenix, Presto, Zeppelin, AWS SDK for Java.</description>
+         <pubDate>Tue, 10 Mar 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_6.0.0_now_available_2020-03-10</guid>
+      </item>
+      <item>
+         <title>Release 5.29.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5290-relnotes</link>
+         <description>Spark performance optimizations. Upgraded versions of MariaDB Connector
+                        and Amazon Redshift JDBC Driver.</description>
+         <pubDate>Fri, 17 Jan 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.29.0_now_available_2020-01-17</guid>
+      </item>
+      <item>
+         <title>Release 5.28.1 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5281-relnotes</link>
+         <description>Fixed Spark compatibility issues. Fixed Amazon CloudWatch Metrics
+                        publishing on an EMR cluster with multiple master nodes. Disabled false
+                        Apache version log message.</description>
+         <pubDate>Fri, 10 Jan 2020 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.28.1_now_available_2020-01-10</guid>
+      </item>
+      <item>
+         <title>Release 5.28.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5280-relnotes</link>
+         <description>Support added for Hudi (Incubating). Expanded application support for
+                        multiple master node clusters. Upgraded versions of Hive, Zeppelin, Flink,
+                        Phoenix, MXNet, and Presto.</description>
+         <pubDate>Fri, 1 Nov 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.28.0_now_available_2019-11-01</guid>
+      </item>
+      <item>
+         <title>Release 5.27.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5270-relnotes</link>
+         <description>Upgraded versions of Spark, Presto, Flink, JupyterHub, TensorFlow, EMR
+                        DynamoDB Connector, and AWS SDK for Java. </description>
+         <pubDate>Mon, 23 Sep 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.27.0_now_available_2019-09-23</guid>
+      </item>
+      <item>
+         <title>EMR block public access and Notebook-scoped libraries for EMR notebooks
+                        now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5260-relnotes</link>
+         <description>Configure EMR Block public access prevents clusters from launching when a
+                        security group allows public access. Install your own Notebook-scoped Python
+                        libraries within the notebook editor in addition to cluster libraries and
+                        isolated to the current session.</description>
+         <pubDate>Mon, 19 Aug 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#EMR_block_public_access_and_Notebook-scoped_libraries_for_EMR_notebooks
+________________________now_available_2019-08-19</guid>
+      </item>
+      <item>
+         <title>Release 5.26.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5260-relnotes</link>
+         <description>Upgraded versions of HBase, Phoenix, AWS SDK for Java, and connectors and
+                        drivers. Improved Spark performance. </description>
+         <pubDate>Thu, 8 Aug 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.26.0_now_available_2019-08-08</guid>
+      </item>
+      <item>
+         <title>Local disk encryption and S3 encryption improvements</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-data-encryption-options.html</link>
+         <description>Now configure Amazon S3 encryption and local disk encryption
+                        independently. With release 5.24.0 and later, use EBS encryption for local
+                        disks to encrypt the root device volume and local storage volumes.</description>
+         <pubDate>Mon, 5 Aug 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Local_disk_encryption_and_S3_encryption_improvements_2019-08-05</guid>
+      </item>
+      <item>
+         <title>Release 5.25.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5250-relnotes</link>
+         <description>Upgraded versions of Hive, Presto, Spark, TensorFlow, Tez, Zookeeper, and
+                        AWS SDK for Java. Improved Spark performance. </description>
+         <pubDate>Wed, 17 Jul 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.25.0_now_available_2019-07-17</guid>
+      </item>
+      <item>
+         <title>Release 5.24.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5240-relnotes</link>
+         <description>Upgraded versions of Spark, Flink, Presto, Livy, Hue, JupyterHub, MxNet,
+                        DynamoDB Connector, MariaDB Connector, Amazon Redshift JDBC Driver, and AWS SDK for Java.
+                        Improved Spark performance.</description>
+         <pubDate>Tue, 11 Jun 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.24.0_now_available_2019-06-11</guid>
+      </item>
+      <item>
+         <title>Support for EMR Cluster with multiple master nodes now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-ha.html</link>
+         <description>With Amazon EMR 5.23.0 and later, you can launch a cluster with three master
+                        nodes to support high availability of applications like YARN Resource
+                        Manager, HDFS Name Node, Spark, Hive, and Ganglia. The master node is no
+                        longer a potential single point of failure with this feature. If one of the
+                        master nodes fails, Amazon EMR automatically fails over to a standby master node
+                        and replaces the failed master node with a new one with the same
+                        configuration and bootstrap actions.</description>
+         <pubDate>Tue, 30 Apr 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Support_for_EMR_Cluster_with_multiple_master_nodes_now_available_2019-04-30</guid>
+      </item>
+      <item>
+         <title>Configuring applications in a running cluster now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-configure-apps-running-cluster.html</link>
+         <description>With Amazon EMR version 5.21.0 and later, you can override cluster configurations and specify additional configuration classifications for each instance group in a running cluster. You do this by using the Amazon EMR console, the AWS Command Line Interface (AWS CLI), or the AWS SDK. For more information, see &lt;a href="https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-configure-apps-running-cluster.html"&gt;Supplying a Configuration for an Instance Group in a Running Cluster&lt;/a&gt;.</description>
+         <pubDate>Wed, 3 Apr 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Configuring_applications_in_a_running_cluster_now_available_2019-04-03</guid>
+      </item>
+      <item>
+         <title>Release 5.23.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5230-relnotes</link>
+         <description>Upgraded version of AWS SDK for Java.</description>
+         <pubDate>Mon, 1 Apr 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.23.0_now_available_2019-04-01</guid>
+      </item>
+      <item>
+         <title>Release 5.22.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5220-relnotes</link>
+         <description>Increased default storage for EBS-only instance types, new property to
+                        tune Spark performance, and upgraded versions of Flink, HBase, Oozie,
+                        Phoenix, and Zeppelin.</description>
+         <pubDate>Wed, 20 Mar 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.22.0_now_available_2019-03-20</guid>
+      </item>
+      <item>
+         <title>Release 5.20.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5210-relnotes</link>
+         <description>Upgraded versions of Flink and Presto.</description>
+         <pubDate>Tue, 5 Feb 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.20.0_now_available_2019-02-05</guid>
+      </item>
+      <item>
+         <title>Kerberos now supports external KDCs</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-kerberos.html</link>
+         <description> Kerberos in Amazon EMR now supports authenticating principals from an external
+                        KDC. This centralizes principal management because multiple clusters can
+                        share a single, external KDC. In addition, the external KDC can have a
+                        cross-realm trust with an Active Directory domain. This allows all clusters
+                        to authenticate principals from Active Directory.</description>
+         <pubDate>Tue, 22 Jan 2019 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Kerberos_now_supports_external_KDCs_2019-01-22</guid>
+      </item>
+      <item>
+         <title>Release 5.20.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5200-relnotes</link>
+         <description>Upgraded versions of Flink, HBase, Hadoop, Hive, Hue, MxNet, Presto,
+                        Spark, Tensorflow, and Tez.</description>
+         <pubDate>Fri, 14 Dec 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.20.0_now_available_2018-12-14</guid>
+      </item>
+      <item>
+         <title>EMR Notebooks now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks.html</link>
+         <description>EMR Notebooks is a managed environment based on Jupyter Notebook now
+                        available with clusters created using EMR release version 5.18.0 and later.
+                        It supports kernels for PySpark, Spark SQL, Spark R, and Scala.</description>
+         <pubDate>Mon, 19 Nov 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#EMR_Notebooks_now_available_2018-11-19</guid>
+      </item>
+      <item>
+         <title>Release 5.19.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5190-relnotes</link>
+         <description>Improved performance of Spark writes to S3 with the S3 optimized
+                        committer. Upgraded versions of Hadoop, Flink, JupyterHub, MXNet, Presto,
+                        TensorFlow, and Zookeeper.</description>
+         <pubDate>Tue, 6 Nov 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.19.0_now_available_2018-11-06</guid>
+      </item>
+      <item>
+         <title>Release 5.18.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5180-relnotes</link>
+         <description>New artifact repository in Maven helps you check dependencies in your job
+                        code before you deploy. S3 Select support added for Presto and Hive.
+                        Upgraded versions of Flink, HBase, Presto, Spark, and Zeppelin.</description>
+         <pubDate>Thu, 25 Oct 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.18.0_now_available_2018-10-25</guid>
+      </item>
+      <item>
+         <title>Release 5.17.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5170-relnotes</link>
+         <description>TensorFlow now available. New support for S3 Select in Spark and S3
+                        persistence for Jupyter notebooks. Upgraded versions of Flink, HBase, and
+                        Presto.</description>
+         <pubDate>Thu, 30 Aug 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.17.0_now_available_2018-08-30</guid>
+      </item>
+      <item>
+         <title>Release 5.16.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5160-relnotes</link>
+         <description>Upgraded versions of Hadoop, Flink, Livy, MXNet, Phoenix, Presto, and
+                        Spark. Changes to support LDAP authentication with Spark.</description>
+         <pubDate>Thu, 19 Jul 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.16.0_now_available_2018-07-19</guid>
+      </item>
+      <item>
+         <title>Release 5.15.0 now available</title>
+         <link>https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html#emr-5150-relnotes</link>
+         <description>Upgraded versions of HBase, Hive, Hue, Oozie, Zookeeper. Kerberos in EMR
+                        now supports Livy.</description>
+         <pubDate>Thu, 21 Jun 2018 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/emr/latest/ReleaseGuide/#Release_5.15.0_now_available_2018-06-21</guid>
+      </item>
+   </channel>
+</rss>

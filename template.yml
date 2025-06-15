@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: RSS Lambda function using provided.al2023 runtime.
+
+Globals:
+  Function:
+    Timeout: 10
+
+Resources:
+  RSSConsumerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: rss-consumer
+      Handler: bootstrap
+      Runtime: provided.al2023
+      CodeUri: .
+      MemorySize: 128
+      Environment:
+        Variables:
+          RSS_URL: https://docs.aws.amazon.com/emr/latest/ReleaseGuide/amazon-emr-release-notes.rss
+          LOG_LEVEL: DEBUG
