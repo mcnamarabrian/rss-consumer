@@ -3,7 +3,7 @@
   "detail-type": "Scheduled Event",
   "source": "aws.events",
   "account": "123456789012",
-  "time": "2025-06-13T00:00:00Z",
+  "time": "2025-05-19T00:00:00Z",
   "region": "us-east-1",
   "resources": [
     "arn:aws:events:us-east-1:123456789012:rule/RssParserRule"

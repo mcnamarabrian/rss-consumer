@@ -18,4 +18,10 @@ Resources:
       Environment:
         Variables:
           RSS_URL: https://docs.aws.amazon.com/emr/latest/ReleaseGuide/amazon-emr-release-notes.rss
+          OFFSET_DAYS: 1
           LOG_LEVEL: DEBUG
+      Events:
+        RSSConsumerEvent:
+          Type: Schedule
+          Properties:
+            Schedule: rate(1 day)

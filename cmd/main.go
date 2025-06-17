@@ -5,6 +5,8 @@ import (
 	"errors"
 	"log/slog"
 	"os"
+	"strconv"
+	"time"
 
 	"github.com/mcnamarabrian/rssconsumer/internal/rssconsumer"
 
@@ -23,7 +25,23 @@ func handler(ctx context.Context, event events.CloudWatchEvent) (Response, error
 		return Response{}, errors.New("RSS_URL environment variable is not set")
 	}
 
-	since := event.Time
+	offset := os.Getenv("OFFSET_DAYS")
+	if offset == "" {
+		slog.Error("missing OFFSET_DAYS environment variable")
+		return Response{}, errors.New("OFFSET_DAYS environment variable is not set")
+	}
+
+	offsetDays, err := strconv.Atoi(offset)
+	if err != nil {
+		slog.Error("invalid OFFSET_DAYS value",
+			slog.String("offset_days", offset),
+			slog.Any("error", err),
+		)
+		return Response{}, errors.New("invalid OFFSET_DAYS value, must be an integer")
+	}
+
+	since := event.Time.Add(-time.Duration(offsetDays) * 24 * time.Hour)
+
 	slog.Info("processing RSS feed",
 		slog.String("rss_url", rssURL),
 		slog.Time("since", since),

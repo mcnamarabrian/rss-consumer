@@ -17,8 +17,12 @@ func TestGetItemsSince(t *testing.T) {
 
 	// Start a mock HTTP server
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte(data))
+		_, err := w.Write([]byte(data))
+		if err != nil {
+			t.Fatalf("Failed to write response: %v", err)
+		}
 	}))
+
 	defer server.Close()
 
 	since := time.Date(2025, 5, 19, 0, 0, 0, 0, time.UTC)
